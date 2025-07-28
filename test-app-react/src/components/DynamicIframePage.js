@@ -113,6 +113,7 @@ const DynamicIframePage = () => {
           <iframe
             src="https://www.eaglerider.com/reservation_widget/new?ReferralCode=444c1237-f9fb-4cba-b1b7-122455d9a2b9&amp;width=750&amp;height=280&amp;horizontal=true&amp;version=v2"
             frameBorder="0"
+            key={`iframe-1`}
             style={{ width: '750px', height: '280px' }}
             title="EagleRider Reservation Widget"
           />
